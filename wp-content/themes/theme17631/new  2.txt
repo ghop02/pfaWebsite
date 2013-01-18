@@ -1,0 +1,17 @@
+.box-button .button:hover{ 	background:#;	}
+.sf-menu li.sfHover a,.sf-menu li.current-menu-item a,.sf-menu li a:hover{ 	background:#DB7428; }
+.reply a:hover {background:#DB7428; }
+.cancel-comment-reply a {   color:#DB7428 !important;  }
+.post-meta .comments-link{color: #DB7428;}
+.pagenavi a:hover{background:#DB7428;	}
+.pagenavi .current{background:#DB7428;	}
+.error404-num {color:#DB7428;}
+.testimonials div.testi_item blockquote a:hover {color: #DB7428;}
+.latestpost li time{color: #DB7428;}
+#footer-text a:hover{color: #DB7428;}
+.button:hover{ background:#DB7428;}
+input[type="submit"]:hover, input[type="reset"]:hover {background:#DB7428;	}
+#commentform p a{color: #DB7428;}
+h3 a:hover{color:#DB7428;}
+.button:hover{ background:#DB7428;}
+.sf-menu li li a:hover,.sf-menu li li.sfHover a,.sf-menu li li.current-menu-item a{ Background:#DB7428;}

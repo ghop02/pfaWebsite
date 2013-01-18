@@ -1,0 +1,207 @@
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/* Logo */
+.logo h1,
+.logo h2 {
+	font-size:2.2em;
+	}
+
+/* Menu */
+.sf-menu li {width:115px;}
+.main-menu{ float:right; width:579px\9;}
+
+/* Slider
+---------------------------------------- */
+#slider-wrapper {
+    height:415px;
+	}
+
+/* Request a quote */
+.box-text {
+		border-right:1px solid #ebebeb;
+		padding:0 10px 31px;
+		}	
+
+/* Advanced Widjet */
+.post_list.testi li{
+	width: 235px;
+	float: left;
+	border: none;
+	padding: 0;
+	margin: 0 20px 20px 0;
+}	
+.post_list.partners li{
+	float: left;
+	border: none;
+	padding: 0;
+	margin: 0 10px 16px 0;
+}
+.post_list.partners li .featured-thumbnail {
+		max-width:125px;
+	}
+/* Flickr widget */
+.flickrImages a {
+	width:58px;
+	height:58px;
+	}
+
+.frame.alignleft img,
+.frame.alignright img,
+.frame.alignnone img	{
+	width:100% !important;
+	height:auto !important;
+	}
+
+/* SlidesJS */
+.slides_container {
+	width:224px;
+}
+.slides_container .item {
+	width:224px;
+	height:170px;
+	}
+	.slides_container .item .featured-thumbnail {
+		float:none;
+		margin-right:0;
+		overflow:hidden;
+		}
+		.slides_container .item .featured-thumbnail img {
+			width:100%;
+			height:auto;
+			}
+
+
+/* Team */
+.recent-posts.team li {
+	width:130px;
+	}
+.recent-posts.team li .featured-thumbnail {
+	width:125px;
+	height:auto;
+	overflow:hidden;
+	}
+
+/* Address */
+.address dt {
+	width:135px;
+	margin-right:10px;
+	padding:0 0 0 55px;
+	font-size:11px;
+	}
+.address dd {
+	width:195px;
+	padding:0 0 0 43px;
+	}
+	.address dd span {
+		width:80px;
+		}
+
+/* Google Map */
+.google-map {
+	position: relative;
+	padding-bottom: 46.25%;
+	height: 0;
+	overflow: hidden;
+	margin:0 0 2% 0;
+}
+.google-map iframe,  
+.google-map object,  
+.google-map embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
+
+.error404-num {
+		font-size:300px;
+		line-height:1.2em;
+		color:#FF2102;
+		}
+/* Post Formats
+---------------------------------------- */
+
+/* Image Post Format */
+.image-post-format img {
+	width:100%;
+	overflow:hidden;
+	}	
+
+/* Gallery Post Format */
+.slides_container_gallery {
+	width:534px;
+	height:270px;
+	}
+	.slides_container_gallery .g_item {
+		width:534px;
+		}
+	
+	
+/* Portfolio
+---------------------------------------- */
+
+/* Default layout 3 columns */
+#gallery .portfolio li {
+	width:237px;
+	margin:0 17px 50px 0;
+	}
+	#gallery .portfolio li a.image-wrap {
+		width:227px;
+		height:117px;
+		}
+
+/* 1 column portfolio*/
+#gallery.one_column .portfolio li a.image-wrap {
+	width:490px;
+	height:245px;
+	float:left;
+	}
+	#gallery.one_column .folio-desc {
+		width:225px;
+		padding-top:5px;
+		}
+
+		
+/* 2 columns portfolio*/
+#gallery.two_columns .portfolio li {
+	width:360px;
+	margin-right:20px;
+	}
+	#gallery.two_columns .portfolio li a.image-wrap {
+		width:350px;
+		height:192px;
+		}
+
+/* 4 columns portfolio*/
+#gallery.four_columns .portfolio li {
+	width:170px;
+	margin-right:17px;
+	}
+	#gallery.four_columns .portfolio li a.image-wrap {
+		width:160px;
+		height:97px;
+		}
+	
+/* Comment Form */
+.commentlist ul.children {
+	margin-left:0;
+	}	
+
+	
+/* Sidebar
+---------------------------------------- */
+#searchform .searching {
+	width:130px;
+	}	
+	
+.pad{
+	padding-right: 0;
+}
+
+
+}
